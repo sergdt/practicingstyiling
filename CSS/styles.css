@@ -44,12 +44,6 @@ hr {
 
 }
 
-
-
-.middle-container {}
-
-.bottom-container {}
-
 .bottom-cloud {
     position: absolute;
 
@@ -113,12 +107,16 @@ hr {
 .bottom-container {
     background-color: #66BFBF;
     color: #EAF6F6;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0 20px;
 }
 
 a {
     margin: 100px;
+    font-family: 'Montserrat', sans-serif;
     color: #11999E;
     text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
